@@ -38,9 +38,18 @@
   .zoom:hover {
 	-ms-transform: scale(1.1); /* IE 9 */
 	-webkit-transform: scale(1.1); /* Safari 3-8 */
-	transform: scale(1.05); 
+	transform: scale(1.05) ; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transform: translateX(-10px);
+  
   }
+  #inputEmail4:hover
+  {
+    transform: scale(1.1);
+    -webkit-transform: translateX(10px);
+  }
+
+
   </style>
  
 <body>
@@ -217,28 +226,28 @@
            <div class="col-12 d-flex"><h2 class="mx-auto bg-info p-3 rounded-circle text-white">Contact</h2></div>
           <form class="mx-auto mt-3 bg-light p-3 col-12">
             <div class="form-row">
-              <div class="form-group col-md-6  zoom">
-                <label for="inputName4">Name</label>
-                <input type="text" class="form-control" id="inputName4" placeholder="Name">
+              <div class="form-group col-md-6 ">
+                <label for="inputName4" >Name</label>
+                <input type="text" class="form-control zoom " id="inputName4" placeholder="Name">
               </div>
-              <div class="form-group col-md-6  zoom">
+              <div class="form-group col-md-6  ">
                 <label for="inputEmail4">Place</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Place">
+                <input type="text" class="form-control zoom" id="inputEmail4" placeholder="Place">
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6 zoom">
+              <div class="form-group col-md-6 ">
                 <label for="inputName4">Email</label>
-                <input type="email" class="form-control" id="inputName4" placeholder="Email">
+                <input type="email" class="form-control zoom" id="inputName4" placeholder="Email">
               </div>
-              <div class="form-group col-md-6 zoom">
+              <div class="form-group col-md-6 ">
                 <label for="inputEmail4">Mobile Number</label>
-                <input type="number" class="form-control" id="inputEmail4" placeholder="Mobile Numbere">
+                <input type="number" class="form-control zoom" id="inputEmail4" placeholder="Mobile Numbere">
               </div>
             </div>
-            <div class="form-group  zoom">
+            <div class="form-group  ">
               <label for="inputAddress">Message</label>
-              <textarea class="form-control" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+              <textarea class="form-control zoom" cols="30" rows="10" placeholder="Enter your message here"></textarea>
             </div>
            
            <div class="d-flex zoom">
